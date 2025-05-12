@@ -79,7 +79,7 @@ const educationInfo = {
       schoolName: "Annamalai University",
       logo: require("./assets/images/annamalai.png"), // Replace with your university logo if possible
       subHeader: "Bachelor of Computer Applications (BCA)",
-      duration: "2016 – 2019",
+      duration: "2014 – 2017",
       desc: "Focused on Software Development, Networking and Security Fundamentals.",
       descBullets: [
         "Graduated with strong foundation in computer applications",
@@ -88,6 +88,7 @@ const educationInfo = {
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
@@ -100,7 +101,6 @@ const techStack = {
   displayCodersrank: false
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -109,14 +109,14 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "VUME Interactive Pvt Ltd",
-      companylogo: require("./assets/images/VUME-interactive.webp"), // Put your company logo
+      companylogo: require("./assets/images/vume.webp"), // Put your company logo
       date: "Oct 2023 – Present",
       desc: "Managing multi-environment deployments with Nomad & Fabio, automating NGINX ingress, securing cloud deployments, and optimizing CI/CD pipelines with GitHub Actions."
     },
     {
       role: "Technical Lead",
       company: "Wipro Technologies",
-      companylogo: require("./assets/images/wipro-logo.png"),
+      companylogo: require("./assets/images/wipro.png"),
       date: "July 2022 – March 2023",
       desc: "Led AWS cloud management, automated Kubernetes deployments with Jenkins, and migrated monolithic Ruby on Rails applications to microservices."
     },
@@ -135,11 +135,12 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
+
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME IMPACTFUL PROJECTS I CONTRIBUTED TO",
@@ -158,7 +159,6 @@ const bigProjects = {
   ],
   display: true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -180,17 +180,10 @@ const achievementSection = {
       image: require("./assets/images/kubernetesLogo.png"),
       imageAlt: "Kubernetes Certification",
       footerLink: []
-    },
-    {
-      title: "Python Shell Scripting",
-      subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
-      image: require("./assets/images/pythonLogo.jpeg"),
-      imageAlt: "Python Scripting"
     }
   ],
   display: true
 };
-
 
 // Blogs Section
 
@@ -198,7 +191,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -213,7 +206,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -232,7 +225,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -245,7 +238,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -261,15 +254,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-906690263",
+  email_address: "mointa97@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
