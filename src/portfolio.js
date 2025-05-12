@@ -26,7 +26,7 @@ const greeting = {
     "🚀 A passionate DevSecOps Engineer and Cloud Security Specialist with hands-on experience in AWS Infrastructure, Secure CI/CD Pipelines, Kubernetes, Docker, Serverless Applications, and Application Security. I love automating deployments, securing cloud environments, and optimizing infrastructure at scale."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/11IAkhYTxIBf_MD6Erje5htd03sGJqMO8/view?usp=sharing",
   displayGreeting: true
 };
 
