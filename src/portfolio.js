@@ -77,7 +77,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Annamalai University",
-      logo: require("./assets/images/annamalaiUniversityLogo.png"), // Replace with your university logo if possible
+      logo: require("./assets/images/annamalai.png"), // Replace with your university logo if possible
       subHeader: "Bachelor of Computer Applications (BCA)",
       duration: "2016 – 2019",
       desc: "Focused on Software Development, Networking and Security Fundamentals.",
@@ -170,21 +170,21 @@ const achievementSection = {
     {
       title: "Certified Ethical Hacker (CEH)",
       subtitle: "Completed CEH from EC-Council in 2017, strengthening core penetration testing skills.",
-      image: require("./assets/images/cehLogo.png"),
+      // image: require("./assets/images/cehLogo.png"),
       imageAlt: "CEH Certification",
       footerLink: []
     },
     {
       title: "Kubernetes Beginner Certification",
       subtitle: "Completed Kubernetes beginner training from KodeKloud, gaining foundational cluster orchestration skills.",
-      image: require("./assets/images/kubernetesLogo.png"),
+      // image: require("./assets/images/kubernetesLogo.png"),
       imageAlt: "Kubernetes Certification",
       footerLink: []
     },
     {
       title: "Python Shell Scripting",
       subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
-      image: require("./assets/images/pythonLogo.png"),
+      // image: require("./assets/images/pythonLogo.png"),
       imageAlt: "Python Scripting"
     }
   ],
