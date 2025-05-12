@@ -163,33 +163,33 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆"),
-  subtitle: "Achievements, Certifications, and Continuous Learning Journey",
-  achievementsCards: [
-    {
-      title: "Certified Ethical Hacker (CEH)",
-      subtitle: "Completed CEH from EC-Council in 2017, strengthening core penetration testing skills.",
-      // image: require("./assets/images/cehLogo.png"),
-      imageAlt: "CEH Certification",
-      footerLink: []
-    },
-    {
-      title: "Kubernetes Beginner Certification",
-      subtitle: "Completed Kubernetes beginner training from KodeKloud, gaining foundational cluster orchestration skills.",
-      // image: require("./assets/images/kubernetesLogo.png"),
-      imageAlt: "Kubernetes Certification",
-      footerLink: []
-    },
-    {
-      title: "Python Shell Scripting",
-      subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
-      // image: require("./assets/images/pythonLogo.png"),
-      imageAlt: "Python Scripting"
-    }
-  ],
-  display: true
-};
+// const achievementSection = {
+//   title: emoji("Achievements And Certifications 🏆"),
+//   subtitle: "Achievements, Certifications, and Continuous Learning Journey",
+//   achievementsCards: [
+//     {
+//       title: "Certified Ethical Hacker (CEH)",
+//       subtitle: "Completed CEH from EC-Council in 2017, strengthening core penetration testing skills.",
+//       image: require("./assets/images/cehLogo.png"),
+//       imageAlt: "CEH Certification",
+//       footerLink: []
+//     },
+//     {
+//       title: "Kubernetes Beginner Certification",
+//       subtitle: "Completed Kubernetes beginner training from KodeKloud, gaining foundational cluster orchestration skills.",
+//       image: require("./assets/images/kubernetesLogo.png"),
+//       imageAlt: "Kubernetes Certification",
+//       footerLink: []
+//     },
+//     {
+//       title: "Python Shell Scripting",
+//       subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
+//       image: require("./assets/images/pythonLogo.png"),
+//       imageAlt: "Python Scripting"
+//     }
+//   ],
+//   display: true
+// };
 
 
 // Blogs Section
