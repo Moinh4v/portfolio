@@ -46,160 +46,90 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DEVSECOPS ENGINEER WHO BUILDS, AUTOMATES AND SECURES CLOUD INFRASTRUCTURE ☁️🔒",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Design and automate secure AWS cloud infrastructures and CI/CD pipelines"),
+    emoji("⚡ Manage containerized applications using Docker, Nomad, and Kubernetes"),
+    emoji("⚡ Secure applications and APIs through penetration testing and automated security tools (Snyk, Jit, Vanta)"),
+    emoji("⚡ Implement API Gateways (KrakenD) and real-time monitoring using Grafana, Loki, OpenSearch"),
+    emoji("⚡ Automate infrastructure with Terraform and manage serverless apps (AWS Lambda, OpenFaaS)")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "Terraform", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Jenkins", fontAwesomeClassname: "fas fa-tools" },
+    { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Annamalai University",
+      logo: require("./assets/images/annamalaiUniversityLogo.png"), // Replace with your university logo if possible
+      subHeader: "Bachelor of Computer Applications (BCA)",
+      duration: "2016 – 2019",
+      desc: "Focused on Software Development, Networking and Security Fundamentals.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Graduated with strong foundation in computer applications",
+        "Developed early interest in cybersecurity and DevOps practices"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    { Stack: "Cloud & DevOps", progressPercentage: "90%" },
+    { Stack: "Security & Compliance Automation", progressPercentage: "80%" },
+    { Stack: "Serverless & Containerization", progressPercentage: "75%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
+
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Senior Software Engineer",
+      company: "VUME Interactive Pvt Ltd",
+      companylogo: require("./assets/images/VUME-interactive.webp"), // Put your company logo
+      date: "Oct 2023 – Present",
+      desc: "Managing multi-environment deployments with Nomad & Fabio, automating NGINX ingress, securing cloud deployments, and optimizing CI/CD pipelines with GitHub Actions."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Lead",
+      company: "Wipro Technologies",
+      companylogo: require("./assets/images/wipro-logo.png"),
+      date: "July 2022 – March 2023",
+      desc: "Led AWS cloud management, automated Kubernetes deployments with Jenkins, and migrated monolithic Ruby on Rails applications to microservices."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Security Engineer",
+      company: "Succeed Technologies Pvt Ltd",
+      companylogo: require("./assets/images/succeed.png"),
+      date: "Sept 2019 – June 2022",
+      desc: "Architected secure web services, optimized large databases, and ensured seamless production migrations with zero data loss."
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -210,98 +140,57 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME IMPACTFUL PROJECTS I CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/krakend.webp"),
+      projectName: "KrakenD API Gateway Management",
+      projectDesc: "Designed, deployed, and secured internal API gateway routes using KrakenD based on application and developer needs.",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/nomad.webp"),
+      projectName: "Automated Nomad Deployments",
+      projectDesc: "Built Nomad job orchestrations using nomad-packs for production and lower environments, serving millions of concurrent users."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements And Certifications 🏆"),
+  subtitle: "Achievements, Certifications, and Continuous Learning Journey",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "Certified Ethical Hacker (CEH)",
+      subtitle: "Completed CEH from EC-Council in 2017, strengthening core penetration testing skills.",
+      image: require("./assets/images/cehLogo.png"),
+      imageAlt: "CEH Certification",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      title: "Kubernetes Beginner Certification",
+      subtitle: "Completed Kubernetes beginner training from KodeKloud, gaining foundational cluster orchestration skills.",
+      image: require("./assets/images/kubernetesLogo.png"),
+      imageAlt: "Kubernetes Certification",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Python Shell Scripting",
+      subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
+      image: require("./assets/images/pythonLogo.png"),
+      imageAlt: "Python Scripting"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Blogs Section
 
