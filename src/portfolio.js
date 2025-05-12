@@ -170,7 +170,7 @@ const achievementSection = {
     {
       title: "Certified Ethical Hacker (CEH)",
       subtitle: "Completed CEH from EC-Council in 2017, strengthening core penetration testing skills.",
-      image: require("./assets/images/cehLogo.png"),
+      image: require("./assets/images/cehLogo.jpg"),
       imageAlt: "CEH Certification",
       footerLink: []
     },
@@ -184,7 +184,7 @@ const achievementSection = {
     {
       title: "Python Shell Scripting",
       subtitle: "Certified in Python Shell Scripting by Prompt InfoTech.",
-      image: require("./assets/images/pythonLogo.png"),
+      image: require("./assets/images/pythonLogo.jpeg"),
       imageAlt: "Python Scripting"
     }
   ],
